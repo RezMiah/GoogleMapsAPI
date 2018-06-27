@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+
+
+<html>
+<head>
+
+    <style>
+        html {height:100%;}
+        body {height:80%; width: 100%; margin:0;padding:0}
+        #map {height:100%}
+    </style>
+ <title>Google Maps</title>
+    <script type="text/javascript"
+                src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDShdkQRl2pAOq4dwi-UX66scZqLA-3BjM&libraries=geometry"></script>
+    <script type="text/javascript" src="Jscript.js"></script>
+
+
+</head>
+<body>
+
+<div id="map"></div>
+<button onclick="inputAnotherMarker()">Button 1</button>
+<button onclick="button2()">Button 2</button>
+<button onclick="button3()">Button 3</button>
+<button onclick="markerInRegion()">Button 4</button>
+<button id="region" onclick="region(255,0,0,0,0,255)"> Select region </button>
+
+<button onclick="hover()">hover markers in region</button>
+
+
+
+</body>
+</html>
