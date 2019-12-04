@@ -166,7 +166,7 @@ function button2() {
 
     console.log(dis);
     //100km converted to miles is 63 miles, a if statement is used to check if the distance is atleast 100km away, if so a marker is added
-    if(dis >= 63){
+    if(dis >= 64){
 
         var MapOptions = {
             center: new google.maps.LatLng(Lat,Long),
